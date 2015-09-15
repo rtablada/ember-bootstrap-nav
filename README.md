@@ -1,25 +1,29 @@
 # Ember-bootstrap-nav
 
-This README outlines the details of collaborating on this Ember addon.
+This addon provides a simple dropdown nav for bootstrap and Ember.js.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* Run `ember install ember-bootstrap-nav`
 
-## Running
+## Use
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+To use this addon, create a `bs-navbar` component with your project links:
 
-## Running Tests
+```hbs
+{{#bs-navbar class='navbar-default navbar-fixed-top' name='Ember Bootstrap'}}
+  {{!-- This nested link to allows the active state to work on your menu items --}}
+  {{#link-to 'navbar' tagName='li'}}
+    {{link-to 'Navbar' 'navbar'}}
+  {{/link-to}}
+{{/bs-navbar}}
+```
 
-* `ember test`
-* `ember test --server`
+The `name` property allows you specify the name that is used for you app and placed in the `.navbar-brand` link in your navbar.
 
-## Building
+## Customization
 
-* `ember build`
+You can customize your navbar a bit more with the following properties on your `bs-navbar`:
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+* `homeRoute` - Allows you to specify what route to link to when a user clicks on your logo/brand name.
+* `logoImg` - Allows you to specify an image to use in your `.navbar-brand` instead of plain text
