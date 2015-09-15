@@ -1,5 +1,14 @@
 # Ember-bootstrap-nav
 
+[![Build Status](https://travis-ci.org/rtablada/ember-bootstrap-nav.svg?branch=master)](https://travis-ci.org/rtablada/ember-bootstrap-nav)
+[![npm version](https://badge.fury.io/js/ember-bootstrap-nav.svg)](http://badge.fury.io/js/ember-bootstrap-nav)
+[![Code Climate](https://codeclimate.com/github/rtablada/ember-bootstrap-nav/badges/gpa.svg)](https://codeclimate.com/github/rtablada/ember-bootstrap-nav)
+[![Coverage Status](https://coveralls.io/repos/rtablada/ember-bootstrap-nav/badge.svg?branch=master&service=github)](https://coveralls.io/github/rtablada/ember-bootstrap-nav?branch=master)
+[![Ember Observer Score](http://emberobserver.com/badges/ember-bootstrap-nav.svg)](http://emberobserver.com/addons/ember-bootstrap-nav)
+[![Dependency Status](https://david-dm.org/rtablada/ember-bootstrap-nav.svg)](https://david-dm.org/rtablada/ember-bootstrap-nav)
+[![devDependency Status](https://david-dm.org/rtablada/ember-bootstrap-nav/dev-status.svg)](https://david-dm.org/rtablada/ember-bootstrap-nav#info=devDependencies)
+
+
 This addon provides a simple dropdown nav for bootstrap and Ember.js.
 
 ## Installation
