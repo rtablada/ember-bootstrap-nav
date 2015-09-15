@@ -4,7 +4,7 @@ This addon provides a simple dropdown nav for bootstrap and Ember.js.
 
 ## Installation
 
-* Run `ebmer install ember-bootstrap`
+* Run `ember install ember-bootstrap`
 * Run `ember install ember-bootstrap-nav`
 
 ## Use
