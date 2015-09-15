@@ -1,6 +1,6 @@
 {
   "name": "ember-bootstrap-nav",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provides a simple dropdown nav for bootstrap and Ember.js.",
   "directories": {
     "doc": "doc",
@@ -16,9 +16,9 @@
     "node": ">= 0.10.0"
   },
   "author": {
-    "name" : "Ryan Tablada",
-    "email" : "ryan@embergrep.com",
-    "url" : "http://ryantablada.com/"
+    "name": "Ryan Tablada",
+    "email": "ryan@embergrep.com",
+    "url": "http://ryantablada.com/"
   },
   "license": "MIT",
   "devDependencies": {
