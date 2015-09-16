@@ -44,7 +44,9 @@
   },
   "keywords": [
     "ember-addon",
+    "ember-cli",
     "bootstrap",
+    "ember-bootstrap",
     "navbar"
   ],
   "dependencies": {
