@@ -1,6 +1,6 @@
 {
   "name": "ember-bootstrap-nav",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Provides a simple dropdown nav for bootstrap and Ember.js.",
   "directories": {
     "doc": "doc",
