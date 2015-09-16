@@ -2,9 +2,6 @@
   "framework": "qunit",
   "test_page": "tests/index.html?hidepassed",
   "disable_watching": true,
-  "before_install": [
-    "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 375x627x16"
-  ],
   "launch_in_ci": [
     "PhantomJS"
   ],
