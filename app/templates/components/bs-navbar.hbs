@@ -17,10 +17,14 @@
         {{/link-to}}
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
+<!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse">
+      {{#if mobileFirst}}
         <ul class="nav navbar-nav">
             {{yield}}
         </ul>
+      {{else}}
+            {{yield}}
+      {{/if}}
     </div><!-- /.navbar-collapse -->
 </div><!-- /.container-fluid -->
