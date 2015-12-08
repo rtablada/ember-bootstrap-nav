@@ -29,7 +29,7 @@ export default Ember.Component.extend({
     homeRoute: 'index',
     logoImg: '',
     name: '',
-
+    mobileFirst: true,
     classNameBindings: ['navbar'],
 
     actions: {
